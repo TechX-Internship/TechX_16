@@ -1,0 +1,110 @@
+.scroll {
+    transform: rotateZ(90deg);
+    position: absolute;
+}
+
+.scroll::after {
+    contain: "";
+    background: rgba(139, 145, 129, 0.50);
+    width: 2px;
+    height: 120px;
+
+}
+
+.imag {
+    /* background-image: url('../../../public/asset/homeImg/Rectangle25.jpg'); */
+    width: 530px;
+    height: 430px;
+    /* flex-shrink: 0; */
+    /* position: absolute; */
+    /* right: 0rem; */
+}
+
+.ell1 {
+    width: 90px;
+    height: 90px;
+    top: -50px;
+    left: -70px;
+}
+
+.ell2 {
+    width: 90px;
+    height: 90px;
+    top: -50px;
+    left: 30px;
+}
+
+.ell3 {
+    width: 90px;
+    height: 90px;
+    top: -50px;
+    left: 130px;
+}
+
+.rec2 {
+    border-radius: 30px;
+    width: 410px;
+    height: 450px;
+}
+
+.rec3 {
+    border-radius: 250px 250px 0px 0px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+.h2 {
+    color: #B7680B;
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    height: 380px;
+}
+
+.mag img {
+    width: 34px;
+    height: 30px;
+    margin-left: 70px;
+
+}
+
+.txt {
+    width: 295px;
+    background: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    bottom: 40px;
+    left: 18px;
+}
+
+.imgr img {
+    width: 100%;
+    height: 400px;
+}
+
+.txt.card {
+    position: relative;
+}
+
+.rooms .txt img {
+    width: 70px;
+    align-content: center;
+}
+
+.rooms .txt {
+    position: absolute;
+    top: 15px;
+    left: 150px;
+}
+.blg img{
+    width: 40px;
+}
+.float{
+    
+}
